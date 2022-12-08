@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formTag</title>
+  </head>
+  <body>
+    <a href="indext.html" target=""> Home</a>
+    <h2>Forrm Tag and more</h2>
+    <h3>Form Elements</h3>
+    <form action="">
+      <label for="myname">Name:</label>
+      <input type="text" name="myname" placeholder="Enter your Name" required />
+      <br /><br />
+
+      <!-- This is learning files  -->
+      <label for="mypass">Password:</label>
+      <input
+        type="password"
+        name="mypass"
+        placeholder="Enter your password"
+        required
+      />
+      <br /><br />
+      <!-- !-- This is learning files  -->
+      <label for="eml">Email</label>
+      <input type="email" name="eml" placeholder="Enter your Email" required />
+      <!-- !-- This is learning files  -->
+      <br /><br />
+      <label for="num">Number</label>
+      <input type="number" name="num" id="" placeholder=" +91 00 0000 0000" />
+      <!-- !-- This is learning files  -->
+      <h3>|Checkbox| select language</h3>
+      <input type="checkbox" name="chkbx" />
+      <label for="chkbx">HTML</label>
+      <input type="checkbox" name="chkbx" />
+      <label for="chkbx">CSS</label>
+      <input type="checkbox" name="chkbx" />
+      <label for="chkbx">HTML</label>
+      <input type="checkbox" name="chkbx" />
+      <label for="chkbx">CSS</label>
+      <!-- !-- This is learning files  -->
+      <br /><br />
+      <fieldset>
+        <legend>Choose your hobbies</legend>
+
+        <input type="checkbox" name="chkbx" />
+        <label for="chkbx">Cheesemaking</label>
+        <input type="checkbox" name="chkbx" />
+        <label for="chkbx">Coffee roasting</label>
+        <br /><br />
+        <input type="checkbox" name="chkbx" />
+        <label for="chkbx">Communication</label>
+        <input type="checkbox" name="chkbx" />
+        <label for="chkbx">Conlanging</label>
+      </fieldset>
+
+      <!-- radio button -->
+      <h2>Radio Button</h2>
+      <p>
+        The value attribute is a string containing the radio button's value. The
+        value is never shown to the user by their user agent. Instead, it's used
+        to identify which radio button in a group is selected.
+      </p>
+      <fieldset>
+        <legend>HTML is ...... language</legend>
+
+        <input type="radio" name="q1" />
+        <label for="q1">programming</label>
+        <input type="radio" name="q1" />
+        <label for="q1">Query</label>
+        <input type="radio" name="q1" />
+        <label for="q1">Markup</label>
+        <input type="radio" name="q1" />
+        <label for="q1">Scripting</label>
+      </fieldset>
+
+      <br /><br />
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="gender" id="" />
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="" />
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="" />
+        <label for="gender">Other</label>
+      </fieldset>
+      <br /><br />
+
+      <fieldset>
+        <legend>Choose color</legend>
+        <input type="color" id="head" name="head" value="#e66465" />
+        <label for="head">color</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Date Of Birth</legend>
+        <label for="start">Choose Your Date Of Birth:</label>
+
+        <input
+          type="date"
+          id="start"
+          name="dob"
+          value="2022-11-12"
+          min="1947-01-01"
+          max="2022-12-11"
+        />
+      </fieldset>
+
+      <br /><br />
+      <h3>Date and time</h3>
+      <label for="meeting-time">Choose a time for your appointment:</label>
+
+      <input
+        type="datetime-local"
+        id="meeting-time"
+        name="meeting-time"
+        value="2018-06-12T19:30"
+        min="2018-06-07T00:00"
+        max="2018-06-14T00:00"
+      />
+
+      <h3>Input type file</h3>
+      <label for="avatar">Choose a profile picture:</label><br />
+
+      <input
+        type="file"
+        id="avatar"
+        name="avatar"
+        accept="image/png, image/jpeg"
+      />
+<br><br>
+      <input type="range" id="volume" name="volume" min="0" max="11" />
+      <label for="volume">Volume</label>
+
+
+
+      <label for="id">User ID:</label>
+      <input type="text" id="id" name="id">
+      <br><br>
+
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+
+    </form>
+  </body>
+</html>
