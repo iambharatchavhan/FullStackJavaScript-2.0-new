@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    background-color:#B2B2B2;
+}
+#submit{
+    /* padding:20px 30px 20px 30px; */
+    padding:20px 40px;
+    margin: 20px;
+    font-family: roboto;
+    font-weight: 600;
+    font-size:18px;
+    background-color: #E97777;
+    cursor: pointer;
+
+}
+#signin{
+    /* padding:20px 30px 20px 30px; */
+    padding:20px 40px;
+    margin: 20px;
+    font-family: roboto;
+    font-weight: 600;
+    font-size:18px;
+    background-color: #379237;
+    color: #FFFAD7;
+    border: 1px solid #FFFAD7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#login{
+    /* padding:20px 30px 20px 30px; */
+    padding:30px 20px;
+    margin: 20px;
+    font-family: roboto;
+    font-weight: 600;
+    font-size:18px;
+    background-color: #2827CC;
+    color: #FFFAD7;
+    border: 1px solid #3DBE29;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#login:hover{
+    background-color: #379237;
+    border: 1px solid #2827CC;
+    
+}
+#signin:hover{
+    background-color: #2827CC;
+}
+
+
+:hover{
+    box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
+}
+
+#cancel{
+    padding: 30px 90px;
+    margin:20px;
+    border-radius:5px;
+    outline:none;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    cursor:pointer;
+}
+#cancel:hover{
+    background: linear-gradient(to right, #B4161B, #FF6263);
+    color:#CAD5E2 ;
+    border: 1px solid #CAD5E2;
+}

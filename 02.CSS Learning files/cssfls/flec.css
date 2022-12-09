@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* selects all elements and make margin and padding zero */
+}
+ /* playing around flexbox */
+#parent{
+    background-color:#758283;
+    width: 100vw;
+    height:100vh;
+    border: 5px dashed #DDD101;
+    display: flex;
+    row-gap: 30px;
+
+}
+.box{
+    background-color:#242B2E;
+    width:100px;
+    height:100px;
+    margin: 5px;
+    color:#CAD5E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    font-size:30px;
+    font-weight: 700;
+}
+
+#three{
+   align-self: center;
+}

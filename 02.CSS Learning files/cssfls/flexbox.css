@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.color{
+   color:#758283
+#242B2E
+#CAD5E2
+#D82E2F
+#51E1ED
+#AF9D5A;
+}
+
+
+/* first playing with first parent */
+.parentone{
+    background-color:#CAD5E2;
+    border:2px solid #0D0D0D;
+    margin-bottom: 20px;
+    width: 100vw;
+    height: 20vh;
+    color: #0D0D0D;
+    display: flex;
+    /* makes the bocxes in row */
+    justify-content: center;
+    align-items: center;
+ 
+}
+.boxone{
+    height:100px;
+    width:100px;
+    border: 1px solid #0D0D0D ;
+    margin:5px;
+    background-color:#242B2E ;
+}
+#one{
+    background-color: #1FAA59;
+}
+#two{
+    background-color: #51E1ED;
+}
+#three{
+    background-color: #6A1B4D;
+}
+
+/* here is the flex box parent two */
+.parenttwo{
+    background-color:#758283;
+    border:2px solid #1FAA59;
+    margin-bottom: 20px;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.boxtwo{
+    height:100px;
+    width:100px;
+    border: 1px solid #0D0D0D;
+    background-color: #00ba8f;
+    margin:5px;
+    
+}
+#six{
+    background-color: #1FAA59;
+}
+#five{
+    background-color: #51E1ED;
+}
+#seven{
+    background-color: #6A1B4D;
+}
+#one{
+    background-color: #1FAA59;
+}
+#two{
+    background-color: #51E1ED;
+}
+#eight{
+    background-color: #FF6666;
+}
+
+/* third parent for flexBox */
+.parentthree{
+    background-color:#CAD5E2;
+    border:2px solid #0D0D0D;
+    margin-bottom: 20px;
+    width: 100vw;
+    height: 20vh;
+    color: #0D0D0D;
+    display: flex;
+    /* makes the bocxes in row */
+    justify-content: flex-end;
+    align-items: center;
+ 
+}
+.parentfour{
+    background-color:#CAD5E2;
+    border:2px solid #0D0D0D;
+    margin-bottom: 20px;
+    width: 100vw;
+    height: 20vh;
+    color: #d40b0b;
+    display: flex;
+    /* makes the bocxes in row */
+    justify-content:space-evenly;
+    align-items: center;
+ 
+}
+.parentfive{
+    background-color:#CAD5E2;
+    border:2px solid #0D0D0D;
+    margin-bottom: 20px;
+    width: 100vw;
+    height: 20vh;
+    color: #0D0D0D;
+    display: flex;
+    /* makes the bocxes in row */
+    justify-content: end;
+}
+.item1{
+    flex-grow: 2;
+    font-size: 1.5rem;
+    color: #d40b0b;
+}
+.item4{
+align-self: flex-end;
+font-size: 1.5rem;
+    color: #d40b0b;
+}

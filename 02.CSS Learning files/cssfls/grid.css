@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Styling dridbox first cos after propeties will overide  */
+.box {
+  background-color: #242b2e;
+  border: 1px solid green;
+  margin:5px;
+  color: #CAD5E2;
+  font-size:30px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+
+}
+/* Styling dridbox first cos after propeties will overide  */
+
+#main-frame {
+  background-color: #242b2e;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+}
+/* all grid will be apllied below */
+#grid-container {
+  background-color: #CAD5E2;
+  border: 2px dashed #b4161b;
+  width: 90vw;
+  height: 90vh;
+  display: grid;
+  grid-template-areas: "navbar navbar navbar navbar"
+                        "main-section main-section main-section aside"  "footer footer footer footer"    ;
+ 
+  
+}
+.navbar{
+ grid-area:navbar;
+ background-color: #1C8D73;
+}
+
+.main-section{
+  grid-area:main-section;
+  background-color: #790ac9;
+}
+
+.aside{
+  grid-area:aside;
+  background-color:#02283a ;
+}
+
+.footer{
+  grid-area:footer;
+  background-color:#02283a ;
+}

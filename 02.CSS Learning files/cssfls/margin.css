@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap');
+*{
+
+   /* this style will apply on everything */
+ margin: 0;
+ padding: 0;
+}
+/* this belongs to header  */
+.head{
+    background-color:#100F0F;
+    color: #F1F1F1;
+    width: 100vw;
+    height: 10vh;
+}
+.headline{
+    font-family:Roboto;
+    font-weight: 600;   
+}
+/* all above belongs to header  */
+/* main body */
+#main{
+    margin-top:10px;
+    margin-bottom:10px;
+    width: 100vw;
+    height:85vh;
+    background-color: #0F3D3E;
+}
+/* main body */
+
+/* box 1 and box2 */
+.boxone{
+    background-color: #DC5F00;
+    height:200px;
+    width: 200px;
+    border: 1px solid #100F0F;
+    /* margin:top right bottom left; */
+    
+}
+.boxone p{
+    border: 1px solid #000;
+    background-color: #A6D1E6;
+    margin-top:20px;
+    text-align: center;
+}
+.boxtwo{
+    background-color: #C98474;
+    height:200px;
+    width: 200px;
+    border: 1px solid #1A132F;
+    margin-left: 100px;
+}
+.boxtwo p{
+    border: 1px solid #000;
+    background-color: #DC5F00;
+    margin-top:20px;
+    margin-left:100px;
+    text-align: center;
+}
+.boxthree{
+    background-color: #A6D1E6;
+    height:200px;
+    width: 200px;
+    border: 1px solid #1A132F;
+    margin-left: 200px;
+   
+}
+.boxthree p{
+    border: 1px solid #000;
+    background-color: #C98474;
+    margin-top:100px;
+    margin-right:100px;
+    text-align: center;
+
+}
+/* inside the box */
+/* box 1 and box2 ..3 */
+
+/* footer*/
+.footer{
+    width: 100vw;
+    background-color:#100F0F ;
+   
+}
+/* footer*/
+

@@ -1,0 +1,33 @@
+#main-frame{
+    border:2px dashed #dd0101;
+    width:100vw;
+}
+/* positin sticky style */
+
+
+.parentone {
+  background-color: #cad5e2;
+  border: 2px solid #0d0d0d;
+  margin-bottom: 20px;
+  width: 40vw;
+  color: #0d0d0d;
+  position: relative;
+}
+.boxone {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #0d0d0d;
+  margin: 5px;
+  background-color: #242b2e;
+}
+#one {
+  background-color: #1faa59;
+  border-radius:50%;
+  position: absolute;
+  right:200px;
+}
+#two {
+  background-color: #51e1ed;
+}
+
+
