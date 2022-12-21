@@ -8,6 +8,8 @@
     04. Music Advertisement Landig page
     05. medifine Advertisement Landig page
     06. Lawfirm Advertisement Landig page
+    07. Credit card landing page
+    08. Website hosting landing page
 04. Tailwind CSS Projects 📒
     01. vs code replica
 05. Articles 📰
