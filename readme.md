@@ -18,4 +18,6 @@
     
     >[CSS selectors: - The perfect way to learn CSS.](https://bharatchavhan.hashnode.dev/css-selectors-the-perfect-way-to-learn-css)
 
-    
+     > [:nth-child() All you need to know.](https://bharatchavhan.hashnode.dev/nth-child-all-you-need-to-know)
+       
+    >[No, CSS positions are not hard to learn.](https://bharatchavhan.hashnode.dev/no-css-positions-are-not-hard-to-learn)   
