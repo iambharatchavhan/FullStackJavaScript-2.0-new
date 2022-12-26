@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;0,800;1,100;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,100;1,400;1,600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #eeeeee;
+}
+ /* --------------------------------------------------- */
+ /* golbla buttons */
+  .btn-global{
+    background-color: #6663e9;
+    padding: 1rem 2.3rem;
+    border-radius: 2rem;
+    border:none;
+    color: #ffffff;
+    font-weight: 600;
+
+  }
+  /* ------------------------------------------------------  */
+#header{
+   background-image: url("./Photos/mainBackground.png");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 100vh;
+   padding: 2rem;
+   position: relative;
+
+  
+}
+.main-navigationbar{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d5d5d5;
+}
+.logo img{
+    width: 80%;
+    margin-left: 1.5rem;
+}
+.nav-text ul{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.nav-text ul li{
+    list-style-type: none;
+    margin:0 0.2rem;
+}
+
+.nav-text ul li a{
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 1rem 2rem;
+}
+.nav-text ul li a:hover{
+    background-color: #3936eb;
+    border-radius: 2rem;
+    border:none;
+    color: #ffffff;
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: transform 280ms ease-out 50ms;
+}
+
+.btn-global:hover{
+    background-color: #3936eb;
+    transform: scale(1.1);
+    transition: transform 280ms ease-out 50ms;
+}
+/* ---------------------hero heading-------------------------- */
+.hero-heading{
+    color: #f2f2f2;
+    margin-left: 1.5rem;
+}
+.hero-heading h1{
+   font-size: 60px;
+   margin-top: 7rem;
+   margin-bottom: 1rem;
+}
+.hero-heading p{
+    font-size: 13px;
+    margin-bottom: 1.5rem;
+}
+.banner{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding:3rem;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -5rem;
+    left: 5rem;
+}
+/* ------------------------------main add----------------------------------- */
+.models{
+
+    background-color: #eeeeee;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.model-heading{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+.Estate-section{
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+
+}
+.Estate-section2{
+    flex-direction: row-reverse;
+}
+.Estate-section img{
+    width:297px;
+    height:350px;
+    border-radius:1rem;
+    object-fit: cover;
+    margin: 0.5rem;
+    z-index: -5;
+}
+.price-card{
+    background-color: #fff;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:1rem 0;
+    border-radius: 0.5rem;
+    width: 80%;
+    position: relative;
+    bottom: 4rem;
+    left:2rem;
+}
+
+
+.price-card h2{
+    font-size:18px;
+    color: #313131;
+}
+.price-card .price{
+    font-size: 16px;
+    color: #6663e9;
+    font-weight: 600;
+}
+.imgsale2{
+    margin-top:4rem;
+}
+.imgsale3{
+    margin-top:8rem;
+}
+.btn-card{
+    padding: 0.8rem 1.5rem;
+}
+/* ______________________________________________________________________ */
+.img-trendy{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    color: #313131;
+    margin-top:10rem;
+
+
+}
+.img3oftrendy img{
+ width: 79%;
+}
+.img2oftrendy img{
+    width: 401px;
+    height: 430px;
+    border-radius: 2rem;
+    position: absolute;
+    left: 6.8rem;
+    bottom: 7rem;
+
+
+}
+#trendheading{
+    margin-top:-12rem;
+    color: #313131;
+}
+.img-trendynew{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10rem;
+   position: relative;
+
+
+}
+.img3oftrendynew img{
+    width: 40vw;
+    margin-left: 12rem;
+
+}
+.img2oftrendynew img{
+    width: 440px;
+    height: 460px;
+    border-radius: 2rem;
+    position: absolute;
+    right: 7.6rem;
+    bottom: 8rem;
+
+
+}
+#trendheading2{
+    color: #313131;
+    margin-top: -7rem;
+    margin-left:8rem;
+}
+#trendheading2 h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+/* -------------------------------------------------------------------- */
+.lastsection{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+ 
+    padding: 4rem 10rem;
+
+}
+.fromdiv{
+    width: 90vw;
+    background-color: #6663e9;
+  
+    padding: 5rem;
+    border-radius: 3rem;
+    color: #fff;
+    position: relative;
+}
+.fromdiv h1{
+    font-size: 60px;
+    margin-bottom: 1rem;
+}
+.fromdiv p{
+    margin: 1rem 0;
+}
+.fromdiv input{
+    margin-top: 2rem;
+  padding:0.8rem 0;
+  padding-right: 14rem;
+  padding-left: 3rem;
+    border-radius: 1rem;
+    outline: none;
+    forced-color-adjust: none;
+    border: none;
+    background-color: #7876ff;
+    color: #fff;
+
+   
+}
+.fromdiv input::placeholder{
+    color: #fff;
+    margin-left: -6rem;
+}
+.fromdiv img{
+    z-index: 23;
+    position: absolute;
+    bottom: 6.7rem;
+    left: 20rem;
+
+}
+.btn-form{
+    background-color: #eeeeee;
+    color: #6663e9;
+    padding:0.8rem 2rem;
+    margin-left: 1rem;
+}
+.btn-form:hover{
+   background-color: #fff;
+   font-weight: 600;
+}
+/* ____________________________________footer____________________________________________ */
+.footer{
+    display: flex;
+    
+    justify-content:space-around;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  .logo img{
+    width: 170px;
+  margin-bottom:1rem;
+  margin-left: 0.5rem;
+  }
+  .iconinsta img{
+    width: 50px;
+  }
+  .logo p{
+    line-height:2rem;
+    margin-bottom:2rem;
+  }
+  .links-for-footer li{
+    list-style-type: none;
+    font-size: 18px;
+    margin:2rem 0;
+  }
+  .links-for-footer li a{
+    text-decoration: none;
+    color: #313131;
+  
+  }
+  .links-for-footer li a:hover{
+   color: #6663e9;
+  }
