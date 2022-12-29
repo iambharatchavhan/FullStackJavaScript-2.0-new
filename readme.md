@@ -8,14 +8,14 @@
     - Music Advertisement Landig page
     - medifine Advertisement Landig page
     - Lawfirm Advertisement Landig page
-    - Credit card landing page
+    
        > [Credit card landing page-Live link](https://hoatyourwebsiteproject.netlify.app)
-    - Website hosting landing page
+  
        > [Website hosting landing page-Live link](https://hoatyourwebsiteproject.netlify.app)
-    - Gamming website landing page
-      > [Gamming website landing page-Live link](https://bharats-tornado-gamming.netlify.app)
-    - Real Estate Website Landing page
-      > [Real Estate Website Landing page-Live link](https://bharats-real-estate.netlify.app)
+  
+       > [Gamming website landing page-Live link](https://bharats-tornado-gamming.netlify.app)
+   
+       > [Real Estate Website Landing page-Live link](https://bharats-real-estate.netlify.app)
 04. Tailwind CSS Projects 📒
     - vs code replica
     - iNueron Login Page
