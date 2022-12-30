@@ -22,6 +22,9 @@
        > [Gamming website landing page-Live link](https://bharats-tornado-gamming.netlify.app)
    
        > [Real Estate Website Landing page-Live link](https://bharats-real-estate.netlify.app)
+
+       > [Bets the music Website](https://bharat-beats-music.netlify.app)
+
 04. ## Tailwind CSS Projects 📒
     - vs code replica
     - iNueron Login Page
