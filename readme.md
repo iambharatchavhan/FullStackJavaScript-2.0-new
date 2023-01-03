@@ -25,6 +25,8 @@
 
        > [Bets the music Website](https://bharat-beats-music.netlify.app)
 
+       > [Data Analytics](https://bharatdatalast.netlify.app)
+
 04. ## Tailwind CSS Projects 📒
     - vs code replica
     - iNueron Login Page
@@ -43,4 +45,6 @@
 
     > [Javascript Array methods(Best Known)](https://bharatchavhan.hashnode.dev/javascript-array-methods)
 
-    
+ 05. JavaScript 
+
+- Learning File 01   
