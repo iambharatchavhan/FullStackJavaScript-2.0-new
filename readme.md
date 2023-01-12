@@ -28,8 +28,8 @@
        > [Data Analytics](https://bharatdatalast.netlify.app)
 
 04. ## Tailwind CSS Projects 📒
-    - vs code replica
-    - iNueron Login Page
+    - [vs code replica](https://bharatvscodeprojects.netlify.app/)
+    - [iNueron Login Page]()
 05. ## Articles 📰
     >[HTML ..How Long Does it Take to Learn?](https://bharatchavhan.hashnode.dev/html-how-long-does-it-take-to-learn)
     
