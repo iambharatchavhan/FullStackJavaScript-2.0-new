@@ -1,10 +1,11 @@
-//define a classic function
-//This is classic Style of functions
+//^define a classic function
+// &This is classic Style of functions
+
 let printQuote = function (){
     console.log(" If say youre cooler than me ...does that make me hotter than you. ");
     console.log("-----------------------------");
 }
-//printQuote();
+// printQuote();
 
 let sayHello = function (){
     console.log("Hey am Bharat, How are you all");
@@ -14,7 +15,7 @@ let sayHello = function (){
 }
 //sayHello();
 
-//user input and parameters
+//?user input and parameters
 
 let nameParam = function (names){
     console.log( `Hey am ${names} How are you all`);
@@ -25,7 +26,8 @@ let nameParam = function (names){
 }
 //nameParam('Ram');
 
-//playing with two parameters you can called is param1 param2 but names make more sence
+//?playing with two parameters you can called is param1 param2 but names make more sence
+
 let nameSirname= function (name ,lastName,nickName){
     console.log( `Hey my name is: ${name} and my LastName is: ${lastName} , But you can call me  ${nickName} HeHe :)`);
     console.log("-----------------------------");
@@ -34,24 +36,24 @@ let nameSirname= function (name ,lastName,nickName){
 //nameSirname("Jayesh", "Bond" , "JemsBond");
 //nameSirname("Peter", "Prabhakar", "MakadaMan");
 
-//cool Right
-// lest do one oldSchool example of additin 
+//!cool Right
+//^lest do one oldSchool example of additin 
 let adder = function (num1,num2) {
-    //   basic logic
+ //^  basic logic
     Add = num1 + num2;
     
-    // not console this time simlpy return the value 
+ //^not console this time simlpy return the value 
     return Add;
    
 }
-//First save result in diffenren variables
+//^First save result in diffenren variables
 let Result = adder(5,4);
-//now we print result using console
+//^now we print result using console
 //console.log(Result);
 
 // -----------------------------mordern but less used method--------------------------------------------------------
 
-//Function declaration method
+//^Function Expression method
 /*
 -----------------------------------------
 syntax 
@@ -66,7 +68,8 @@ function function-name (parameters){
 function-name(values);
 ------------------------------------------
 */
-//long way for ubderstanding functinality 
+//^long way for ubderstanding functinality 
+
 function oddEven(number){
    
     if(number%2 === 0)
@@ -90,11 +93,11 @@ function oddEven(number){
     }
 
 }
-oddEven(5);
-oddEven(10);
-oddEven(0);
+// oddEven(5);
+// oddEven(10);
+// oddEven(0);
 
-//Shot way ---------------------------------
+//^Short way ---------------------------------
 function oddEvenshort(number)
 {
     if(number % 2 === 0)
@@ -107,10 +110,10 @@ function oddEvenshort(number)
         return false;
     }
 }
-let newresult = oddEvenshort(1);
-console.log(newresult);
+// let newresult = oddEvenshort(1);
+// console.log(newresult);
 
-//OR wy  short----------------------------
+//^OR way  short----------------------------
 function oddEvenshort2(number)
 {
     if(number % 2 === 0)
@@ -121,18 +124,84 @@ function oddEvenshort2(number)
     return false;
 }
 
-let newresult2 = oddEvenshort(10);
-console.log(newresult2);
+// let newresult2 = oddEvenshort(10);
+// console.log(newresult2);
 
 
-//OR shorter ----------------------------
+//^OR shorter ----------------------------
 function oddEvenshort3(number)
 {
     return (number % 2 === 0);
 }
-let newresult3 = oddEvenshort(5);
-console.log(newresult3);
+// let newresult3 = oddEvenshort(5);
+// console.log(newresult3);
 
-// All function woked ,gave correct results
+//^ All function woked ,gave correct results
 
-// ----------------------------------------Most impotant >-------->>  Arrow Function --------------------------
+//~Function declaration method
+//^ save fuction in a variable called function declaration and annonimous 
+
+// -----------find remender of given number-------------
+
+const remenderValue = function (number1, number2){
+    return (number1 % number2 )
+}
+// let remResult = remenderValue(5 , 2);
+// console.log(remResult);
+
+
+
+/*
+Red (!)
+Blue (?)
+Green (*)
+Yellow (^)
+Pink (&)
+Purple (~)
+Mustard (todo)
+Grey (//)
+ 
+ */
+//^ ----------------------------------------Most impotant >>-------->-  Arrow Function >>---------->-
+//? what exactly the arrow functions are ?
+//~ The shortest and most used type of function are arrow >>-----> functions
+
+const isEvenArrow = (number) => (number%2 === 0) ;     //thats it ...its finished   
+
+//console.log( isEvenArrow(3));
+
+//* ----------------------print massage -------------------------
+
+const singSong = () => console.log("Happy Birthday To You"); //we print the song usig one line function
+
+//singSong();
+
+//! It is wroked only short functions or single task 
+
+//? more exaples 
+
+let votingAge = (age) => 
+{
+    if (age >= 18){
+        console.log("You can vote");
+    }
+    else if (age <= 8)
+    {
+        console.log("You are just a child ");
+    }
+    else {
+        console.log("You can not vote but Fill the form for voting card");
+    }
+}
+votingAge(5);
+
+// "---------- -- -------- ---------fetch first charecter of string ----------------- -- ----------------"
+
+let firstChar = (names) => {
+    return names[0];
+}
+let letter = firstChar('Nakul');
+console.log(letter);
+
+
+// ------------------------------------------------the end -----------------------------------------
