@@ -105,7 +105,16 @@ console.log("z", z);
 
 // we have saved  20 200 and 500 skipping 100 
 
+// we have bluk values and we want to push them into array 
 
+let mystr = "1234567890"
+
+let mySpreadArray = [...mystr];
+ console.log(mySpreadArray);
+
+ // this way 
+ let directSpredInArray = [..."abcdefghijklmnopqrstvwxyz"]
+ console.log(directSpredInArray);
 
 
 // *----------*_______________*-----------------*_________*----------------*_________ 
