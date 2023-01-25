@@ -94,6 +94,16 @@ console.log("myvariable3",myvariable3);
 console.log("mySpArry2",mySpArry2);
 
 
+//^ Skiping elements
+
+const mySkiped = [20, 100, 200, 500];
+
+let [x, , y,z] = mySkiped ;
+console.log("x", x);
+console.log("y", y);
+console.log("z", z);
+
+// we have saved  20 200 and 500 skipping 100 
 
 
 
