@@ -83,3 +83,4 @@ const [{userid}, ,{username}] = users ;
 console.log(userid);
 console.log(username);
 
+// you can aslo cahage variable name using colon :  easy |)

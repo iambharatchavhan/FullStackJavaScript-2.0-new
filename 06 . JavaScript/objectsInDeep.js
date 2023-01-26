@@ -89,4 +89,4 @@ secondSteoreOfTishirts[key4]= value4;
 
 console.log(secondSteoreOfTishirts);
 
-//^ Objects descructuring 
+//^ Objects descructuring
