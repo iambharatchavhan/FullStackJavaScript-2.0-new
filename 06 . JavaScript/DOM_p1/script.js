@@ -16,15 +16,57 @@ paraThree.textContent =" The element was created in javascript and added to the 
 parentDiv.appendChild(paraThree);
 
 
-let firstHeading = document.querySelector("#headingOne");
 
 let headingThree = document.createElement("h1");
 
 headingThree.textContent = "This heading was created in  javascript ";
 
-let next = parentDiv.appendChild(headingThree);
+ parentDiv.appendChild(headingThree);
 
 
+// created ul and inside li in pure js
+// doc.create
+// add text content 
+// then append with the parent 
+
+ let newUl = document.createElement("ul")
+ parentDiv.appendChild(newUl);
+
+ let li = document.createElement('li');
+ li.textContent= "list item1 by js";
+
+ newUl.appendChild(li);
+
+ let li2 = document.createElement('li');
+ li2.textContent= "list item2 by js";
+
+ newUl.appendChild(li2);
+
+ //**************************** */
+
+ //^ css using js
+
+ let firstHeading = document.querySelector("#headingOne");
+
+ const theCSS = firstHeading.style;
+
+ theCSS.color = "RED"
+ theCSS.fontSize = "70px"
+ theCSS.fontWeight = "300";
+
+firstHeading.textContent= "Changed by js";
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
