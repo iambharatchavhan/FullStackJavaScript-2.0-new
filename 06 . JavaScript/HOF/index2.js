@@ -23,8 +23,11 @@ function sqr (num) {
 }
 console.log(sqr(9));
 
+//
+
 console.log(arr.map(function(num){
        sqrs = num ** 2;
 
     return sqrs;
 }));
+
