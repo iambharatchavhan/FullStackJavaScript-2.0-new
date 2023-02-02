@@ -31,3 +31,43 @@ console.log(arr.map(function(num){
     return sqrs;
 }));
 
+//filter function 
+
+//! arr = [9,7,6,5,4,3,2]
+// filter based on some logic
+
+//? oddValues
+
+function oddValues (num)
+{
+    return num %2 ;
+} 
+console.log(arr.filter(oddValues));
+
+//& same 
+console.log(arr.filter( (num)=> num%2));
+//&even
+/*
+^  console.log(arr.filter((num)=>num%2===0));
+^  const isEven = (num) => {
+^  return num % 2 === 0;
+^  }
+
+*/
+
+//* Reduce ---> to find sum or Max num 
+
+
+//! arr = [9,7,6,5,4,3,2]
+const arrTwo = [9,7,6,5,4,3,2]
+
+function findSum (arrTwo){
+    let sum = 0;
+
+    for (let i=0 ; i< arrTwo.length; i++){
+     sum = sum + arr[i];
+
+    }
+  return sum;
+}
+console.log(findSum(arrTwo));
