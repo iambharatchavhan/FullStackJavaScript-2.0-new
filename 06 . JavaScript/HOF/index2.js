@@ -79,11 +79,16 @@ const output = arrTwo.reduce((acc,curr) =>
 },0);
 console.log(output);
 
+//^ how do we find out the max number of the array 
 const findMax = arrTwo.reduce((acc,curr)=>{
+    // pass current value and check it with the accumilator
      if (curr > acc){
+        // if current is greater than accumilator assighn value to accumilator 
         acc = curr;
      }
      return acc ;
 },0)
 
 console.log(findMax);
+
+//& more to learn about map filter reduce pending 
