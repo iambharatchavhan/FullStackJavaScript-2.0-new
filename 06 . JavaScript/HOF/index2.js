@@ -71,3 +71,19 @@ function findSum (arrTwo){
   return sum;
 }
 console.log(findSum(arrTwo));
+
+const output = arrTwo.reduce((acc,curr) =>
+{
+    acc=  acc + curr;
+    return acc;
+},0);
+console.log(output);
+
+const findMax = arrTwo.reduce((acc,curr)=>{
+     if (curr > acc){
+        acc = curr;
+     }
+     return acc ;
+},0)
+
+console.log(findMax);
