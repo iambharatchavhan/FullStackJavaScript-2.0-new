@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'oswald';
+    src: url(../Fonts/Oswald/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'quattrocento';
+    src: url(../Fonts/Oswald/Quattrocento/Quattrocento-Regular.ttf);
+}
+
+.oswald{
+    font-family: 'oswald';
+}
+
+.quattrocento{
+    font-family: 'quattrocento';
+}
